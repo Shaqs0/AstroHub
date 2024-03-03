@@ -1,0 +1,16 @@
+:root {
+  --font: "Space Grotesk";
+  --primary-color: #1A1AE5;
+  --primary-hover-color: #1c1cb1;
+  --text-secondary-color: #9E9EB8;
+  --text-color: #FFFFFF;
+  --main-color: #121217;
+  --secondary-color: #292938;
+}
+
+
+body{
+  font-family: "Space Grotesk";
+  background-color: var(--main-color);
+  margin: 0;
+}
