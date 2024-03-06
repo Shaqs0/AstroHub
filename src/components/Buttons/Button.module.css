@@ -35,7 +35,7 @@
 }
 
 .accent {
-    background: var(--primary-color);
+    background: var(--secondary-color);
 }
 
 .accent:hover {
