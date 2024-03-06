@@ -6,11 +6,12 @@
   --text-color: #FFFFFF;
   --main-color: #121217;
   --secondary-color: #292938;
+  --separator-color: #E5E8EB;
 }
 
 
 body{
-  font-family: "Space Grotesk";
+  font-family: var(--font);
   background-color: var(--main-color);
   margin: 0;
 }

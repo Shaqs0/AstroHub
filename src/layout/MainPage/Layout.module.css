@@ -1,4 +1,40 @@
 .layout {
     display: flex;
     min-height: 100px;
+    min-width: 100vh;
+}
+
+.top {
+    max-width: 100%;
+    border-bottom: 2px solid var(--separator-color);
+}
+
+.logo {
+    display: flex;
+    color: var(--text-color);
+    gap: 15px;
+    flex-shrink: 0;
+    height: 83px;
+    padding-left: 7vh;
+    
+}
+
+.logo img {
+    width: 22px; 
+    height: auto; 
+    
+}
+
+.logo p {
+    font-family: var(--font);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22.5px; /* 125% */
+    letter-spacing: -0.27px;
+}
+
+.search {
+    margin-left: 1200px;
+    margin-top: -53px;
 }
