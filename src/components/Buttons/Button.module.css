@@ -8,12 +8,13 @@
 }
 
 .big {
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 0.24px;
+    display: flex;
+    width: 91.719px;
+    height: 48px;
     padding: 0px 20px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
 }
 
 .middle {

@@ -2,5 +2,5 @@ import { InputHTMLAttributes } from 'react';
 
 export interface SearchProps extends InputHTMLAttributes<HTMLInputElement> {
     isValid?: boolean;
-    appearence?: 'big' | 'small';
+    appearance?: 'big' | 'small';
 }
