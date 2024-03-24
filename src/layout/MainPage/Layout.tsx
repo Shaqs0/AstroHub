@@ -28,32 +28,32 @@ export function Layout() {
 					</div>
 				</div>
 			</div>
-			<div className={styles['featured-content']}>
-				<span className={styles['featured-content-main-text']}>Featured content</span>
-				<span className={styles['featured-content-secondary-text']}>From the birth of stars to the search for life on Mars, we've got you covered</span>
+			<div className={styles['featured_content']}>
+				<span className={styles['featured_content_main_text']}>Featured content</span>
+				<span className={styles['featured_content_secondary_text']}>From the birth of stars to the search for life on Mars, we've got you covered</span>
 
-				<Button appearence='big' className={styles['featured-content-see-all']}>See all</Button>
+				<Button appearence='big' className={styles['featured_content_see_all']}>See all</Button>
 
 			</div>
 			<div className={styles['news']}>
-				<span className={styles['header-news']}>What's new</span>
-				<div className={styles['news-card']}>
+				<span className={styles['header_news']}>What's new</span>
+				<div className={styles['news_card']}>
 					<img src="../public/news_picture1.png" />
-					<span className={styles['news-card-theme']}>Featured</span>
-					<span className={styles['news-card-header']}>NASA's Artemis I mission: What you need to know</span>
-					<span className={styles['news-text']}>Copy The first uncrewed test flight for NASA's Artemis program is set to launch soon</span>
+					<span className={styles['news_card_theme']}>Featured</span>
+					<span className={styles['news_card_header']}>NASA's Artemis I mission: What you need to know</span>
+					<span className={styles['news_text']}>Copy The first uncrewed test flight for NASA's Artemis program is set to launch soon</span>
 				</div>
-				<div className={styles['news-card']}>
+				<div className={styles['news_card']}>
 					<img src="../public/news_picture2.png" />
-					<span className={styles['news-card-theme']}>Featured</span>
-					<span className={styles['news-card-header']}>What's a black hole? A guide to the universe's darkest mysteries</span>
-					<span className={styles['news-text']}>Black holes are some of the most fascinating and enigmatic objects in the cosmos. Learn about their properties, formation, and more in this guide</span>
+					<span className={styles['news_card_theme']}>Featured</span>
+					<span className={styles['news_card_header']}>What's a black hole? A guide to the universe's darkest mysteries</span>
+					<span className={styles['news_text']}>Black holes are some of the most fascinating and enigmatic objects in the cosmos. Learn about their properties, formation, and more in this guide</span>
 				</div>
-				<div className={styles['news-card']}>
+				<div className={styles['news_card']}>
 					<img src="../public/news_picture3.png" />
-					<span className={styles['news-card-theme']}>Featured</span>
-					<span className={styles['news-card-header']}>The search for extraterrestrial life: A cosmic quest</span>
-					<span className={styles['news-text']}>Are we alone in the universe? It's a question that has captivated human imagination for centuries. In this guide, we'll explore the science behind the search for extraterrestrial life, from the icy moons of Jupiter to the deserts of Mars</span>
+					<span className={styles['news_card_theme']}>Featured</span>
+					<span className={styles['news_card_header']}>The search for extraterrestrial life: A cosmic quest</span>
+					<span className={styles['news_text']}>Are we alone in the universe? It's a question that has captivated human imagination for centuries. In this guide, we'll explore the science behind the search for extraterrestrial life, from the icy moons of Jupiter to the deserts of Mars</span>
 				</div>
 			</div>
 		</div>
