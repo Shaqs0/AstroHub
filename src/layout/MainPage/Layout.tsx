@@ -8,27 +8,32 @@ export function Layout() {
 			<div className={styles['top']}>
 				<div className={styles['logo']}>
 					<img src='../public/AstroHub_logo.svg' alt='Логотип сайта' />
-					<p>AstroHub</p>
+					<span>AstroHub</span>
 				</div>
-				<div className={styles['search']}><Search placeholder='Search' /></div>
-				<div className={styles['profile-area']}>
+				<div className={styles['search']}><Search appearance='small' placeholder='Search' /></div>
+				<div className={styles['profile_area']}>
 					<Button appearence='small'><img src="../public/search_area_icon.svg" alt="Иконка лупы" /></Button>
 					<Button appearence='small'><img src="../public/bookmark_icon.svg" alt="Иконка закладки" /></Button>
 					<Button appearence='small'><img src="../public/notification_icon.svg" alt="Иконка уведомления" /></Button>
 				</div>
 			</div>
 			<div className={styles['search_background']}>
-				<div className={styles['photo_search']}>
-					<img src='../public/background_photo_large.png' alt="Explore the universe" />
-					<span className={styles['main-text']}>Explore the universe</span>
+				<div className="">
+					<span className={styles['main_text']}>Explore the universe</span>
 					<span className={styles['text']}>Learn about the cosmos with our guides to space phenomena, news, and more</span>
-					<div className={styles['input']}><Search placeholder='Search for topics, articles, and more' /></div>
+					<div className={styles['searchContainer']}>
+						<img className={styles['image']} src='/search_icon.svg' alt='Иконка лупы'></img>
+						<Search className={styles['input']} appearance='big' placeholder='Search for topics, articles, and more' />
+						<Button className={styles['btn']} appearence='big'>Search</Button>
+					</div>
 				</div>
 			</div>
 			<div className={styles['featured-content']}>
 				<span className={styles['featured-content-main-text']}>Featured content</span>
 				<span className={styles['featured-content-secondary-text']}>From the birth of stars to the search for life on Mars, we've got you covered</span>
+
 				<Button appearence='big' className={styles['featured-content-see-all']}>See all</Button>
+
 			</div>
 			<div className={styles['news']}>
 				<span className={styles['header-news']}>What's new</span>

@@ -6,16 +6,11 @@ import { SearchProps } from './Search.props';
 const Search = forwardRef<HTMLInputElement, SearchProps>(function Input({ isValid = true, className, appearance = 'small', ...props }, ref) {
 	return (
 		<div className={styles['input-wrapper']}>
-			<input ref={ref}  className={cn(styles['input'], className, {
+			<input ref={ref} className={cn(styles['input'], className, {
 				[styles['small']]: appearance === 'small',
 				[styles['big']]: appearance === 'big',
-				[styles['invalid']]: isValid,
-			})} {...props}/>
-			<img className={cn(styles['icon'], {
-				[styles['small']]: appearance === 'small',
-				[styles['big']]: appearance === 'big',
-				[styles['invalid']]: isValid,
-			})} src='/search_icon.svg' alt='Иконка лупы'/>  
+				[styles['invalid']]: !isValid,
+			})} {...props} />
 		</div>
 	);
 });
