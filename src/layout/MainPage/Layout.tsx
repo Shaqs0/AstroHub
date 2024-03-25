@@ -39,21 +39,30 @@ export function Layout() {
 				<span className={styles['header_news']}>What's new</span>
 				<div className={styles['news_card']}>
 					<img src="../public/news_picture1.png" />
-					<span className={styles['news_card_theme']}>Featured</span>
-					<span className={styles['news_card_header']}>NASA's Artemis I mission: What you need to know</span>
-					<span className={styles['news_text']}>Copy The first uncrewed test flight for NASA's Artemis program is set to launch soon</span>
+					<div className={styles['text_news']}>
+						<span className={styles['news_card_theme']}>Featured</span>
+						<span className={styles['news_card_header']}>NASA's Artemis I mission: What you need to know</span>
+						<span className={styles['news_text']}>Copy The first uncrewed test flight for NASA's Artemis program is set to launch soon</span>
+						<Button appearence='middle' className={styles['btn_news']}>Read more</Button>
+					</div>
 				</div>
 				<div className={styles['news_card']}>
 					<img src="../public/news_picture2.png" />
-					<span className={styles['news_card_theme']}>Featured</span>
-					<span className={styles['news_card_header']}>What's a black hole? A guide to the universe's darkest mysteries</span>
-					<span className={styles['news_text']}>Black holes are some of the most fascinating and enigmatic objects in the cosmos. Learn about their properties, formation, and more in this guide</span>
+					<div className={styles['text_news']}>
+						<span className={styles['news_card_theme']}>Featured</span>
+						<span className={styles['news_card_header']}>What's a black hole? A guide to the universe's darkest mysteries</span>
+						<span className={styles['news_text']}>Black holes are some of the most fascinating and enigmatic objects in the cosmos. Learn about their properties, formation, and more in this guide</span>
+						<Button appearence='middle' className={styles['btn_news']}>Read more</Button>
+					</div>
 				</div>
 				<div className={styles['news_card']}>
 					<img src="../public/news_picture3.png" />
-					<span className={styles['news_card_theme']}>Featured</span>
-					<span className={styles['news_card_header']}>The search for extraterrestrial life: A cosmic quest</span>
-					<span className={styles['news_text']}>Are we alone in the universe? It's a question that has captivated human imagination for centuries. In this guide, we'll explore the science behind the search for extraterrestrial life, from the icy moons of Jupiter to the deserts of Mars</span>
+					<div className={styles['text_news']}>
+						<span className={styles['news_card_theme']}>Featured</span>
+						<span className={styles['news_card_header']}>The search for extraterrestrial life: A cosmic quest</span>
+						<span className={styles['news_text']}>Are we alone in the universe? It's a question that has captivated human imagination for centuries. In this guide, we'll explore the science behind the search for extraterrestrial life, from the icy moons of Jupiter to the deserts of Mars</span>
+						<Button appearence='middle' className={styles['btn_news']}>Read more</Button>
+					</div>
 				</div>
 			</div>
 		</div>

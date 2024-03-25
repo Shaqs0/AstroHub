@@ -26,11 +26,13 @@
 }
 
 .middle {
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 21px;
+    display: flex;
+    width: 103.516px;
+    height: 32px;
     padding: 0px 16px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
 }
 
 .small {
